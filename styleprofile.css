@@ -19,7 +19,7 @@
 
 .profile-picture{
     display: grid;
-    grid-template-columns: 4fr 2fr;
+    /* grid-template-columns: 4fr 2fr; */
     background-color: #5e72e4;
     width: auto;
 }
@@ -53,6 +53,17 @@
     background-color: transparent;
     border: 2px solid #5e72e4;
     border-radius: 5px;
+}
+.profile-s-1 input[type = submit]{
+    background-color:  #5e72e4;
+    color: rgb(255, 255, 255);
+    /* margin: 5px; */
+    /* padding: 5px 0px 5px 5px;     */
+    border: none;
+    width: 65%;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
 }
 .profile-s-2{
     width: 100%;

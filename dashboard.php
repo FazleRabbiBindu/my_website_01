@@ -3,6 +3,7 @@
 <title>Dashboard</title>
 <link rel="stylesheet" href="styledashboard.css">
 <link rel="stylesheet" href="styleprofile.css">
+<link rel="stylesheet" href="stylechat.css">
 </head>
 <body>
 
@@ -56,7 +57,7 @@
                 }
                 elseif($_GET['details'] === 'Chat')
                 {
-                    
+                    include 'chat.html';
                 }
                 else
                 {
